@@ -5,7 +5,7 @@ class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      leading:  IconButton(icon: Icon(Icons.menu), onPressed: (){},),
+      leading:  IconButton(icon: const Icon(Icons.menu), onPressed: (){},),
       title: const Text("Home"),
       actions:  [
         IconButton(onPressed: (){}, icon: const Icon(Icons.shopping_cart),),

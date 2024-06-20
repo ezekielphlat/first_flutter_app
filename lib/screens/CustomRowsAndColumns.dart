@@ -16,7 +16,7 @@ class CustomRowsAndColumns extends StatelessWidget {
 
           child: const Column(
             children: [
-              const Row(
+              Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Column(
@@ -39,7 +39,7 @@ class CustomRowsAndColumns extends StatelessWidget {
                   )
                 ],
               ),
-              const Row(
+              Row(
                 children: [
                   Expanded(child: Image(image: AssetImage('images/profilepics.jpg'),width: 200.0,)),
                   Expanded( flex: 2,child: Image(image: AssetImage('images/profilepics.jpg'),width: 200.0,)),
